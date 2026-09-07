@@ -1,0 +1,306 @@
+<!-- Comentario -->
+
+<!-- HTML(5) y HTM Con CSS(3)-->
+
+<!--Marca esta entre <> -->
+
+<!-- ETIQUETAS HTML-->
+<directiva atributo="valor">
+    valor
+</directiva>
+
+<!--ESTRUCTURA DOCUMENTOS HTML -->
+<!--HTML>
+    ---Aqui va el contenido.
+</HTML-->
+
+<!--PARTES DOCUMENTOS HTML -->
+<!DOCTYPE html>
+<!--LENGUAJE-->
+<html lang="es">
+
+<!--CABECERA DONDE SE PONE LA INFO QUE VE EL NAVEGADOR-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El primer html</title>
+</head>
+
+
+<!--CUERPO DE LA PAGINA DONDE SE PONE LA INFO QUE SI SE VE-->
+
+<body>
+    <!--titulo principal y secundario-->
+    <h1>ESTO ES UN TITULO</h1>
+    <h1>HOLA MUNDO</h1>
+    <h2>HOLA MUNDO</h2>
+    <h3>HOLA MUNDO</h3>
+    <h4>HOLA MUNDO</h4>
+    <h5>HOLA MUNDO</h5>
+    <h6>HOLA MUNDO</h6>
+
+    <!--párrafo y salto de linea-->
+    <p>ESTO ES UN PARRAFO<br>ESTO ES UN BR SALTO DEL MISMO PARRAFO</p>
+
+    <!--Subindices-->
+    <!--(em)=cursiva -->
+    <!--(sub)=subindice-->
+    <!--(sup)=superindice-->
+    <!--(strong)=negrita-->
+    <!--(u)=subrayado-->
+    <p>La <em>fórmula</em> del agua es H<sub>2</sub>O<br>Y un <u>número</u> elevado al <strong>cuadrado</strong> es
+        X<sup>2</sup>
+    </p>
+
+    <!--Imagenes-->
+    <img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/LOGO1.png">
+    <img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/LOGO2.png">
+
+</body>
+
+
+<!--LISTAS-->
+<!--Ordenada-->
+<h1>Medidas de protección contra el coronavirus</h1>
+<!--TYPE = 1,A,a,I,i-->
+<ol type="1">
+    <li>Usar guantes y tapabocas si vas a salir</li>
+    <li>Lavado frecuente de manos</li>
+    <li>Evitar contacto con objetos como puertas, barandas, etc.</li>
+</ol>
+
+<!--Desordenada-->
+<h1>Lista de artículos de protección</h1>
+<!--TYPE = circle,square,disk-->
+<ul TYPE="square">
+    <li>Tapabocas</li>
+    <li>Jabón Antibacterial</li>
+    <li>Alcohol</li>
+</ul>
+
+
+<!--HIPERVINCULOS-->
+<!--hipervinculos externos -->
+<a href="https://www.chess.com/home">Ir al ajedrez</a>
+
+<!--hipervinculos internos -->
+<a href="prueba2.html">Ir a la prueba 2</a>
+
+<!--hipervinculos imagenes -->
+<a href="https://www.youtube.com">
+    <img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/TUBE.png">
+</a>
+
+
+
+<!--TABLA-->
+
+<!--ENCABEZADOS-->
+<table border=1>
+    <tr>
+        <th>ENCABEZADO 1</th>
+        <th>ENCABEZADO 2</th>
+    </tr>
+    <!--FILA 1-->
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <!--FILA 2-->
+    <tr>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+
+
+<!--COMBINAR CELDAS-->
+<table border="1">
+    <!--COMBINAR DOS CELAS HORIZONTALES-->
+    <table border=1>
+        <!--titulo de la tabla-->
+        <caption><strong>Agenda Semanal
+    <tr>
+        <th> Hora </th>
+        <th> Lunes </th>
+        <th> Martes </th>
+    </tr>
+    <tr>
+        <th>7:00 am</th>
+        <td colspan="2">Desayuno </td>
+    </tr>
+    <tr>
+        <th>8:00 am</th>
+        <td>Reunión</td>
+        <td>Clase</td>
+    </tr>
+    </table>
+
+    <!--COMBINAR DOS CELAS VERTICALES-->
+<table border=1>
+        <caption><strong>Agenda Semanal
+    <tr>
+        <th> Hora </th>
+        <th> Lunes </th>
+        <th> Martes </th>
+    </tr>
+    <tr>
+        <th>7:00 am</th>
+        <td rowspan="2">Reunion Jefe</td>
+        <td>Informe</td>
+    </tr>
+    <tr>
+        <th>8:00 am</th>
+        <td>Desayuno</td>
+    </tr>
+    </table>
+
+
+<!--PRACTICAS CON JUEGUITO-->
+<table border=1>
+    <tr>
+        <th>LETRA (B)</th>
+        <th>NOMBRE (ESCRIBE EL NOMBRE CON SUBRAYADO)</th>
+        <th>APELLIDO (ESCRIBE UNA LISTA NO ORDENADA DE 3 APELLIDOS)</th>
+        <th>CIUDAD (ESCRIBE UNA CIUDAD EN LETRA CURSIVA)</th>
+        <th>ANIMAL (INCLUYE UNA IMAGEN DEL ANIMAL)</th>
+        <th>FRUTA (ESCRIBE EL NOMBRE EN NEGRITA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td><u>BARTOLOMEO</u></td>
+        <td><ul type="square">
+            <li>Bermudez</li>
+            <li>Bolaños</li>
+            <li>Bernal</li>
+        </ul></td>
+        <td><em>Barranquilla</em></td>
+        <td>Buey<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/BUEY.jpg"></td>
+        <td><strong>Banano</strong></td>
+        <td style="background-color: #8A735C;">Beige</td>
+    </tr>
+</table>
+
+<table border=1>
+    <tr>
+        <th>LETRA (A)</th>
+        <th>NOMBRE (ESCRIBE EL NOMBRE EN NEGRITA)</th>
+        <th>APELLIDO (ESCRIBE EL APELLIDO SUBRAYADO)</th>
+        <th>CIUDAD (LISTA NO ORDENADA DE 3 CIUDADES)</th>
+        <th>ANIMAL (INCLUYE UNA IMAGEN DEL ANIMAL)</th>
+        <th>FRUTA (VINCULA A PAGINA EXTERNA SOBRE LA FRUTA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td><strong>Ana</strong></td>
+        <td><u>Alvarez</u></td>
+        <td><ul type="circle">
+            <li>Astana</li>
+            <li>Anapoima</li>
+            <li>Almeria</li>
+        </ul></td>
+        <td>Aguila<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/AGUILA.jpg"></td>
+        <td><a href="https://exoticfruitbox.com/frutas-exoticas/aguacate/">Aguacate</a></td>
+        <td style="background-color: #060485;">Azul</td>
+    </tr>
+</table>
+
+<table border=1>
+    <tr>
+        <th>LETRA (M)</th>
+        <th>NOMBRE (ESCRIBE EL NOMBRE EN CURSIVA)</th>
+        <th>APELLIDO (ESCRIBE EL APELLIDO COMO TITULO PRINCIPAL)</th>
+        <th>CIUDAD (ESCRBE LA CIUDAD EN NEGRITA)</th>
+        <th>ANIMAL (LISTA ORDENADA DE 3 ANIMALES)</th>
+        <th>FRUTA (INCLUYE UNA IMAGEN DE LA FRUTA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td><em>Maria</em></td>
+        <td><h1>Muñoz</h1></td>
+        <td><strong>Mumbai</strong></td>
+        <td><ol type="I">
+            <li>Mono</li>
+            <li>Mapache</li>
+            <li>Morsa</li>
+        </ol></td>
+        <td>Mangostino<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/MANGOSTINO.jpg"></td>
+        <td style="background-color: #c511f2;">Morado</td>
+    </tr>
+</table>
+
+<table border=1>
+    <tr>
+        <th>LETRA (N)</th>
+        <th>NOMBRE (ESCRIBE EL NOMBRE COMO SUPERINDICE)</th>
+        <th>APELLIDO (ESCRIBE EL APELLIDO EN NEGRITA)</th>
+        <th>CIUDAD (VINCULA UNA PAGINA EXTERNA DE LA CIUDAD)</th>
+        <th>ANIMAL (INCLUYE IMAGEN DEL ANIMAL)</th>
+        <th>FRUTA (INCLUYE UNA IMAGEN DE LA FRUTA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>N</td>
+        <td>N<sup>Norberto</sup></td>
+        <td><strong>Narvaez</strong></td>
+        <td><a href="https://nairobi.go.ke/explore-nairobi">Nairobi</a></td>
+        <td>Nutria<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/NUTRIA.jpg"></td>
+        <td>Noni<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/NONI.jpg"></td>
+        <td style="background-color: #d89e00;">Naranja</td>
+    </tr>
+</table>
+
+<table border=1>
+    <tr>
+        <th>LETRA (V)</th>
+        <th>NOMBRE (LISTA NO ORDENADA DE 3 NOMBRES)</th>
+        <th>APELLIDO (ESCRIBE EL APELLIDO COMO SUBINDICE)</th>
+        <th>CIUDAD (INCLUYE IMAGEN DE LA CIUDAD)</th>
+        <th>ANIMAL (VINCULAR PAGINA EXTERNA DEL ANIMAL)</th>
+        <th>FRUTA (ESCRIBE LA FRUTA EN EN CURSIVA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>V</td>
+        <td><ul type="square">
+            <li>Valeria</li>
+            <li>Victor</li>
+            <li>Viviana</li>
+        </ul></td>
+        <td>V<sub>Vargas</sub></td>
+        <td>Valencia<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/VALENCIA.jpg"></td>
+        <td><a href="https://www.nationalgeographicla.com/animales/cual-es-la-diferencia-entre-una-serpiente-una-vibora-y-una-culebra">Vibora</a></td>
+        <td><em>Vainilla</em></td>
+        <td style="background-color: #e8a4f8ff;">Violeta</td>
+    </tr>
+</table>
+
+<table border=1>
+    <tr>
+        <th>LETRA (R)</th>
+        <th>NOMBRE (ESCRIBE EL NOMBRE COMO SUBTITULO)</th>
+        <th>APELLIDO (LISTA ORDENADA DE 3 APELLIDOS)</th>
+        <th>CIUDAD (ESCRIBA LA CIUDAD EN CURSIVA)</th>
+        <th>ANIMAL (ESCRIBE EL ANIMAL EN NEGRITA)</th>
+        <th>FRUTA (INCLUYE UNA IMAGEN DE LA FRUTA)</th>
+        <th>COLOR (RELLENA CON UN COLOR LA CELDA EL BACKGROUND)</th>
+    </tr>
+    <tr>
+        <td>R</td>
+        <td><H2>Roberto</H2></td>
+        <td><ol type="1">
+            <li>Ramirez</li>
+            <li>Rios</li>
+            <li>Romero</li>
+        </ol></td>
+        <td><em>Rovira</em></td>
+        <td><strong>Raton</strong></td>
+        <td>Rambutan<img src="D:/UR/6 Semestre/WEB/Practica de Codigo/IMAGENES/RAMBUTAN.jpg"></td>
+        <td style="background-color: #ff4747ff;">Rojo</td>
+    </tr>
+</table>
+</html>
