@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    box-sizing: torder-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: blue;
+    color: burlywood;
+}
