@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+    <h1>STOP</h1>
+    <h2>Letra: S</h2>
+    <a href="#reglas">Ir a las reglas</a>
+    <a href="#formulario">Ir a Hoja de respuestas</a>
+</header>
+<main>
+    <table  scope="col" border="1">
+    <tr>
+        <th>Jugador</th>
+        <th>Nombre</th>
+        <th>Lugar</th>
+        <th>Animal</th>
+        <th>Objeto</th>
+        <th>Marca</th>
+        <th>Comida</th>
+    </tr>
+    <tr>
+        <th>Sofia</th>
+        <td>Sary</td>
+        <td>Sala</td>
+        <td>Sapo</td>
+        <td>Saco</td>
+        <td>Suzuki</td>
+        <td>Sopa</td> 
+    </tr>
+    <tr>
+        <th>Sara</th>
+        <td>Sandra</td>
+        <td>San diego</td>
+        <td>Sapa</td>
+        <td>Suero</td>
+        <td>Selena Gomez</td>
+        <td>Salsa</td> 
+    </tr>
+    <tr>
+        <th>Sandra</th>
+        <td>Sofia</td>
+        <td>San andress</td>
+        <td>Sapo</td>
+        <td>Silla</td>
+        <td>Suzuki</td>
+        <td>Sopa</td> 
+    </tr>
+    </table>
+    
+</main>
+<aside>
+    <h2 id="reglas">Reglas del Torneo</h2>
+    <ol type="1">
+        <li>El parcial es individual. Cada estudiante entrega su propio repositorio.</li>
+        <li>Duración: 120 minutos exactos. El cronómetro es público y no se detiene.</li>
+        <li>La letra del torneo se sortea al minuto cero y es la misma para todo el grupo. Todo el contenido que usted invente —nombres, respuestas, nombre del torneo— debe empezar por esa letra.</li>
+        <li>Las rondas son secuenciales: lo que construye en una es el insumo de la siguiente.</li>
+        <li>Al final de cada ronda el profesor anuncia ¡STOP!: todos hacen commit con el formato ronda-NN: descripción. El historial de git es parte de la evaluación.</li>
+        <li>Se permite consultar documentación oficial: MDN, react.dev, getbootstrap.com y la documentación de TypeScript.</li>
+        <li>No se permiten asistentes de inteligencia artificial, código propio de proyectos anteriores ni plantillas descargadas.</li>
+        <li>Todo se escribe durante el parcial, desde una carpeta vacía. Lo único que recibe es el kit del torneo.</li>
+        <li>No se evalúa backend, bases de datos ni estado en React: este parcial cubre HTML, CSS, JavaScript y componentes con props.</li>
+        <li>Cada estudiante tiene dos comodines PISTA (el profesor responde una duda puntual; cuesta el 10 % de esa ronda) y un comodín SALTO (usa el archivo de rescate del kit para continuar; esa ronda vale 0 pero la cadena no se rompe).</li>
+        <li>Si una ronda no le funciona, documente en BITACORA.md qué intentó y qué error obtuvo: eso otorga puntaje parcial.</li>
+        <li>La entrega se hace dentro del tiempo. Lo que llegue después no se evalúa.
+    </ol>
+
+    <h2>Categorias</h2>
+    <ul TYPE="square">
+        <li>Nombre</li>
+        <li>Lugar</li>
+        <li>Animal</li>
+        <li>Objeto</li>
+        <li>Marca</li>
+        <li>Comida</li>
+    </ul>
+
+</aside>
+
+<form id="formulario" action="#" method="post" autocomplete="off">
+    <fieldset>
+        <legend>Hoja de respuestas</legend>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ejemplo: Sofía" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="lugar">Lugar:</label>
+        <input type="text" id="lugar" name="lugar" placeholder="Ejemplo: Sevilla" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="animal">Animal:</label>
+        <input type="text" id="animal" name="animal" placeholder="Ejemplo: Sapo" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="objeto">Objeto:</label>
+        <input type="text" id="objeto" name="objeto" placeholder="Ejemplo: Silla" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" placeholder="Ejemplo: Suzuki" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="comida">Comida:</label>
+        <input type="text" id="comida" name="comida" placeholder="Ejemplo: Sopa" pattern="[Ss][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}" title="Empiece con S y escriba al menos tres letras." oninvalid="this.setCustomValidity('Empiece con S y escriba al menos tres letras.')" oninput="this.setCustomValidity('')" required><br><br>
+
+        <label for="letra">Letra del torneo:</label>
+        <select id="letra" name="letra" required>
+            <option value="">Seleccione una letra</option>
+            <option>A</option><option>B</option><option>C</option><option>D</option>
+            <option>E</option><option>F</option><option>G</option><option>H</option>
+            <option>I</option><option>J</option><option>L</option><option>M</option>
+            <option>N</option><option>O</option><option>P</option><option>R</option>
+            <option>S</option><option>T</option><option>U</option><option>V</option>
+        </select><br><br>
+
+        <label for="ronda">Numero de ronda:</label>
+        <input type="number" id="ronda" name="ronda" min="1" max="13" required>
+    </fieldset>
+
+    <p><audio controls src="recursos/timbre.mp3">Su navegador no admite audio.</audio></p>
+    <p><img src="recursos/escudo.png" alt="Escudo del Torneo Rosarista de STOP"></p>
+
+    <button type="submit">¡STOP!</button>
+    <button type="reset">Restablecer</button>
+</form>
+
+<footer>
+    <h3>Ana Camila Gomez Hernandez</h3>
+    <h3>Grupo 3</h3>
+</footer>
+</body>
+</html>
